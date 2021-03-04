@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.3...v1.3.4) (2021-03-04)
+
+
+### Bug Fixes
+
+* save artifacts between jobs ([18fb2e0](https://github.com/jasonwalsh/ubuntu-20.04/commit/18fb2e0b041d1ec8f4fc336dd12f7f00db9dcc11))
+
 ## [1.3.3](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.2...v1.3.3) (2021-03-04)
 
 
