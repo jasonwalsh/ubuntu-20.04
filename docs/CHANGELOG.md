@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.0...v1.3.1) (2021-03-04)
+
+
+### Bug Fixes
+
+* push to tag ([da53279](https://github.com/jasonwalsh/ubuntu-20.04/commit/da53279ea83fe6632857caec2281632443bb34c3))
+
 # [1.3.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.2.3...v1.3.0) (2021-03-04)
 
 
