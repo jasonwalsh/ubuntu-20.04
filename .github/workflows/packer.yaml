@@ -9,6 +9,12 @@ jobs:
           AWS_DEFAULT_REGION: "${{ secrets.AWS_DEFAULT_REGION }}"
           AWS_SECRET_ACCESS_KEY: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
         run: packer build -var="release=$GITHUB_REF" -var="skip_create_ami=false" template.json
+      - run: |
+          git config user.email github-actions@github.com
+          git config user.name github-actions
+          git add .
+          git commit -m "docs: Update packages documentation"
+          git push
 name: Build Amazon Machine Image
 "on":
   release:
