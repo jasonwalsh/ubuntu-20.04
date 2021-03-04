@@ -1,3 +1,3 @@
 # ubuntu-20.04
 
-[![Build Amazon Machine Image](https://github.com/jasonwalsh/ubuntu-20.04/actions/workflows/packer.yaml/badge.svg)](https://github.com/jasonwalsh/ubuntu-20.04/actions/workflows/packer.yaml)
+[![Build and release Amazon Machine Image](https://github.com/jasonwalsh/ubuntu-20.04/actions/workflows/release.yaml/badge.svg)](https://github.com/jasonwalsh/ubuntu-20.04/actions/workflows/release.yaml)

@@ -19,9 +19,6 @@
         ]
       },
       "ssh_username": "ubuntu",
-      "tags": {
-        "release": "{{ user `release` }}"
-      },
       "type": "amazon-ebs",
       "user_data_file": "{{ template_dir }}/cloudinit/user-data.yml"
     }
@@ -55,7 +52,6 @@
     "access_key": "{{ env `AWS_ACCESS_KEY_ID` }}",
     "instance_type": "t3.micro",
     "region": "{{ env `AWS_DEFAULT_REGION` }}",
-    "release": "",
     "secret_key": "{{ env `AWS_SECRET_ACCESS_KEY` }}",
     "shutdown_behavior": "terminate",
     "skip_create_ami": "true"
