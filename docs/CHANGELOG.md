@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.1.0...v1.2.0) (2021-03-04)
+
+
+### Features
+
+* add badge to README ([de311d0](https://github.com/jasonwalsh/ubuntu-20.04/commit/de311d0b16633281ad3aff715a047619a658b251))
+
 # [1.1.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.0.1...v1.1.0) (2021-03-04)
 
 
