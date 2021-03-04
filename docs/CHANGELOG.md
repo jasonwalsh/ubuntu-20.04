@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.2.1...v1.2.2) (2021-03-04)
+
+
+### Bug Fixes
+
+* use PAT for triggering release job ([8181629](https://github.com/jasonwalsh/ubuntu-20.04/commit/818162919794a3bf521c1164c4e0b3b6d7085f87))
+
 ## [1.2.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.2.0...v1.2.1) (2021-03-04)
 
 
