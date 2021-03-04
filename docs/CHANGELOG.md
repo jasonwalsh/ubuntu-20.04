@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.2.2...v1.2.3) (2021-03-04)
+
+
+### Bug Fixes
+
+* add environment variables to workflow ([02a1e0c](https://github.com/jasonwalsh/ubuntu-20.04/commit/02a1e0ca1bc29929f9936db0c069ad6a4af202df))
+
 ## [1.2.2](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.2.1...v1.2.2) (2021-03-04)
 
 
