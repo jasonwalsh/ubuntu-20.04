@@ -1,0 +1,12 @@
+jobs:
+  build:
+    name: Build Amazon Machine Image
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: packer build -var="release=$GITHUB_REF" -var="skip_create_ami=false" template.json
+name: Build Amazon Machine Image
+"on":
+  release:
+    types:
+      - published
