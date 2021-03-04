@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.4...v1.3.5) (2021-03-04)
+
+
+### Bug Fixes
+
+* specify artifact download directory ([f7b95d0](https://github.com/jasonwalsh/ubuntu-20.04/commit/f7b95d04e9d71612b89697a67372949f6885b696))
+
 ## [1.3.4](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.3...v1.3.4) (2021-03-04)
 
 
