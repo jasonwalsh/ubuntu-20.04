@@ -1,6 +1,19 @@
+env:
+  GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 jobs:
+  build:
+    name: Build Amazon Machine Image
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - env:
+          AWS_ACCESS_KEY_ID: "${{ secrets.AWS_ACCESS_KEY_ID }}"
+          AWS_DEFAULT_REGION: "${{ secrets.AWS_DEFAULT_REGION }}"
+          AWS_SECRET_ACCESS_KEY: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
+        run: packer build -var="skip_create_ami=false" template.json
   release:
     name: Release
+    needs: build
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
@@ -9,10 +22,8 @@ jobs:
           node-version: 14
       - run: npm install @semantic-release/changelog -D
       - run: npm install @semantic-release/git -D
-      - env:
-          GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
-        run: npx semantic-release
-name: Release
+      - run: npx semantic-release
+name: Build and release Amazon Machine Image
 "on":
   push:
     branches:
