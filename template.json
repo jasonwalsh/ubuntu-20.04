@@ -1,0 +1,59 @@
+{
+  "builders": [
+    {
+      "access_key": "{{ user `access_key` }}",
+      "ami_name": "ubuntu-20.04-{{ timestamp }}",
+      "instance_type": "{{ user `instance_type` }}",
+      "region": "{{ user `region` }}",
+      "secret_key": "{{ user `secret_key` }}",
+      "shutdown_behavior": "{{ user `shutdown_behavior` }}",
+      "skip_create_ami": "{{ user `skip_create_ami` }}",
+      "source_ami_filter": {
+        "filters": {
+          "name": "ubuntu-minimal/images/hvm-ssd/ubuntu-focal-20.04-amd64-minimal-*",
+          "virtualization-type": "hvm"
+        },
+        "most_recent": true,
+        "owners": [
+          "aws-marketplace"
+        ]
+      },
+      "ssh_username": "ubuntu",
+      "type": "amazon-ebs",
+      "user_data_file": "{{ template_dir }}/cloudinit/user-data.yml"
+    }
+  ],
+  "post-processors": [
+    {
+      "output": "docs/packer-manifest.json",
+      "type": "manifest"
+    }
+  ],
+  "provisioners": [
+    {
+      "inline": [
+        "cloud-init status --wait"
+      ],
+      "type": "shell"
+    },
+    {
+      "playbook_dir": "{{ template_dir }}",
+      "playbook_file": "{{ template_dir }}/playbook.yml",
+      "type": "ansible-local"
+    },
+    {
+      "destination": "{{ template_dir }}/docs/packages.md",
+      "direction": "download",
+      "source": "/tmp/{{ build_name }}.md",
+      "type": "file"
+    }
+  ],
+  "variables": {
+    "access_key": "{{ env `AWS_ACCESS_KEY_ID` }}",
+    "instance_type": "t3.micro",
+    "region": "{{ env `AWS_DEFAULT_REGION` }}",
+    "secret_key": "{{ env `AWS_SECRET_ACCESS_KEY` }}",
+    "shutdown_behavior": "terminate",
+    "skip_create_ami": "true"
+  }
+}

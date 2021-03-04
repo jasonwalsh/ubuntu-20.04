@@ -1,0 +1,7 @@
+# {{ ansible_date_time.date }}
+
+| Name | Version |
+|------|---------|
+{% for package, versions in ansible_facts.packages.items() %}
+| {{ package }} | {{ versions | join("<br>", attribute="version") }} |
+{% endfor %}

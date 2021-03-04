@@ -1,0 +1,7 @@
+- name: Gather package facts
+  ansible.builtin.package_facts:
+    manager: auto
+- name: Render package facts
+  ansible.builtin.template:
+    dest: /tmp/{{ packer_build_name }}.md
+    src: markdown.j2
