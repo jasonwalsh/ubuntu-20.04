@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.1...v1.3.2) (2021-03-04)
+
+
+### Bug Fixes
+
+* force push in packer workflow ([1bd5834](https://github.com/jasonwalsh/ubuntu-20.04/commit/1bd5834241869a347f1797f881f916f1f75d5af1))
+
 ## [1.3.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.0...v1.3.1) (2021-03-04)
 
 
