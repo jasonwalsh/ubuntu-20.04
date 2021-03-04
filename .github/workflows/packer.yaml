@@ -9,4 +9,4 @@ name: Build Amazon Machine Image
 "on":
   release:
     types:
-      - published
+      - created
