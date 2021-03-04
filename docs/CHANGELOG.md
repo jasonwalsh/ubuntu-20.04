@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.2...v1.3.3) (2021-03-04)
+
+
+### Bug Fixes
+
+* consolidate jobs into a single workflow ([feb48c2](https://github.com/jasonwalsh/ubuntu-20.04/commit/feb48c29e8caae5dbd80eb9a77f75d0d3acfc505))
+
 ## [1.3.2](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.1...v1.3.2) (2021-03-04)
 
 
