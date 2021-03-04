@@ -27,6 +27,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: docs
+          path: docs/
       - run: npm install @semantic-release/changelog -D
       - run: npm install @semantic-release/git -D
       - run: npx semantic-release
