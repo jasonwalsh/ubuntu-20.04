@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.2.3...v1.3.0) (2021-03-04)
+
+
+### Features
+
+* automatically commit packages file ([4a32d68](https://github.com/jasonwalsh/ubuntu-20.04/commit/4a32d68d46575c1f1605b4fbbaa602b191253e85))
+
 ## [1.2.3](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.2.2...v1.2.3) (2021-03-04)
 
 
