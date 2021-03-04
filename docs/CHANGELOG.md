@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.5...v1.3.6) (2021-03-04)
+
+
+### Bug Fixes
+
+* remove release variable from template ([7020b42](https://github.com/jasonwalsh/ubuntu-20.04/commit/7020b4207be4cfe5033e316a92ebff7e67f8c959))
+
 ## [1.3.5](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.4...v1.3.5) (2021-03-04)
 
 
