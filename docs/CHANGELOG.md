@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.6...v1.4.0) (2021-03-06)
+
+
+### Features
+
+* add create-tags workflow ([cbef2b4](https://github.com/jasonwalsh/ubuntu-20.04/commit/cbef2b4bd2e24199a9e014762301a14c7154438d))
+
 ## [1.3.6](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.5...v1.3.6) (2021-03-04)
 
 
