@@ -14,13 +14,11 @@
           "virtualization-type": "hvm"
         },
         "most_recent": true,
-        "owners": [
-          "aws-marketplace"
-        ]
+        "owners": ["aws-marketplace"]
       },
       "ssh_username": "ubuntu",
       "type": "amazon-ebs",
-      "user_data_file": "{{ template_dir }}/cloudinit/user-data.yml"
+      "user_data_file": "{{ template_dir }}/cloudinit/user-data.yaml"
     }
   ],
   "post-processors": [
@@ -31,14 +29,12 @@
   ],
   "provisioners": [
     {
-      "inline": [
-        "cloud-init status --wait"
-      ],
+      "inline": ["cloud-init status --wait"],
       "type": "shell"
     },
     {
       "playbook_dir": "{{ template_dir }}",
-      "playbook_file": "{{ template_dir }}/playbook.yml",
+      "playbook_file": "{{ template_dir }}/playbook.yaml",
       "type": "ansible-local"
     },
     {
