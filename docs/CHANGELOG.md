@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.4.1...v1.5.0) (2021-03-07)
+
+
+### Features
+
+* add additional tags to built artifact ([eb75c3e](https://github.com/jasonwalsh/ubuntu-20.04/commit/eb75c3e5d9d1867f0b9c678d312bf83c03095313))
+
 ## [1.4.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.4.0...v1.4.1) (2021-03-07)
 
 
