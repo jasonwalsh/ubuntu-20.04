@@ -11,7 +11,7 @@ jobs:
           AWS_DEFAULT_REGION: "${{ secrets.AWS_DEFAULT_REGION }}"
           AWS_SECRET_ACCESS_KEY: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
         run: |
-          aws ec2 create-tags --resources $AMI_ID --tags Key=Release,Value=$GITHUB_REF
+          aws ec2 create-tags --resources $AMI_ID --tags Key=Release,Value=${{ github.event.release.tag_name }}
 name: Create tags
 "on":
   release:
