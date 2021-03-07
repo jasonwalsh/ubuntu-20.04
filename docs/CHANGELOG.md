@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.5.0...v1.6.0) (2021-03-07)
+
+
+### Features
+
+* add incremental strategy ([330fb8b](https://github.com/jasonwalsh/ubuntu-20.04/commit/330fb8bb92289e01cac91798fb623ad2f09ba19b))
+
 # [1.5.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.4.1...v1.5.0) (2021-03-07)
 
 
