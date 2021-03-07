@@ -14,9 +14,15 @@
           "virtualization-type": "hvm"
         },
         "most_recent": true,
-        "owners": ["aws-marketplace"]
+        "owners": [
+          "aws-marketplace"
+        ]
       },
       "ssh_username": "ubuntu",
+      "tags": {
+        "SourceAMI": "{{ .SourceAMI }}",
+        "SourceAMIName": "{{ .SourceAMIName }}"
+      },
       "type": "amazon-ebs",
       "user_data_file": "{{ template_dir }}/cloudinit/user-data.yaml"
     }
@@ -29,7 +35,9 @@
   ],
   "provisioners": [
     {
-      "inline": ["cloud-init status --wait"],
+      "inline": [
+        "cloud-init status --wait"
+      ],
       "type": "shell"
     },
     {
