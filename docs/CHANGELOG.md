@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.4.0...v1.4.1) (2021-03-07)
+
+
+### Bug Fixes
+
+* strip refs/tags/ from Release tag value ([87d9a34](https://github.com/jasonwalsh/ubuntu-20.04/commit/87d9a340a75bc5c4de40825134d0ccfb79f6e14b))
+
 # [1.4.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.3.6...v1.4.0) (2021-03-06)
 
 
