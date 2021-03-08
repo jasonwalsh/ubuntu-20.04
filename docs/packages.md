@@ -1,4 +1,4 @@
-# 2021-03-07
+# 2021-03-08
 
 | Name | Version |
 |------|---------|
@@ -52,6 +52,8 @@
 | fdisk | 2.34-0.1ubuntu9.1 |
 | finalrd | 6~ubuntu20.04.1 |
 | findutils | 4.7.0-1ubuntu1 |
+| fontconfig-config | 2.13.1-2ubuntu3 |
+| fonts-dejavu-core | 2.37-1 |
 | fonts-ubuntu-console | 0.83-4ubuntu1 |
 | fuse | 2.9.9-3 |
 | gawk | 1:5.0.1+dfsg-1 |
@@ -142,10 +144,12 @@
 | libffi7 | 3.3-4 |
 | libfido2-1 | 1.3.1-1ubuntu2 |
 | libfl2 | 2.6.4-6.2 |
+| libfontconfig1 | 2.13.1-2ubuntu3 |
 | libfreetype6 | 2.10.1-2ubuntu0.1 |
 | libfuse2 | 2.9.9-3 |
 | libgcc-s1 | 10.2.0-5ubuntu1~20.04 |
 | libgcrypt20 | 1.8.5-5ubuntu1 |
+| libgd3 | 2.2.5-5.2ubuntu2 |
 | libgdbm-compat4 | 1.18.1-5 |
 | libgdbm6 | 1.18.1-5 |
 | libgirepository-1.0-1 | 1.64.1-1~ubuntu20.04.1 |
@@ -167,6 +171,9 @@
 | libip4tc2 | 1.8.4-3ubuntu2 |
 | libisc-export1105 | 1:9.11.16+dfsg-3~ubuntu1 |
 | libisns0 | 0.97-3 |
+| libjbig0 | 2.1-3.1build1 |
+| libjpeg-turbo8 | 2.0.3-0ubuntu1.20.04.1 |
+| libjpeg8 | 8c-2ubuntu8 |
 | libjson-c4 | 0.13.1+dfsg-7ubuntu0.3 |
 | libk5crypto3 | 1.17-6ubuntu4.1 |
 | libkeyutils1 | 1.6-6ubuntu1 |
@@ -192,6 +199,10 @@
 | libnetplan0 | 0.101-0ubuntu3~20.04.2 |
 | libnettle7 | 3.5.1+really3.5.1-2 |
 | libnghttp2-14 | 1.40.0-1build1 |
+| libnginx-mod-http-image-filter | 1.18.0-0ubuntu1 |
+| libnginx-mod-http-xslt-filter | 1.18.0-0ubuntu1 |
+| libnginx-mod-mail | 1.18.0-0ubuntu1 |
+| libnginx-mod-stream | 1.18.0-0ubuntu1 |
 | libnpth0 | 1.6-1 |
 | libnss-systemd | 245.4-4ubuntu3.4 |
 | libp11-kit0 | 0.23.20-1ubuntu0.1 |
@@ -236,13 +247,23 @@
 | libstdc++6 | 10.2.0-5ubuntu1~20.04 |
 | libsystemd0 | 245.4-4ubuntu3.4 |
 | libtasn1-6 | 4.16.0-2 |
+| libtiff5 | 4.1.0+git191117-2ubuntu0.20.04.1 |
 | libtinfo6 | 6.2-0ubuntu2 |
 | libuchardet0 | 0.0.6-3build1 |
 | libudev1 | 245.4-4ubuntu3.4 |
 | libunistring2 | 0.9.10-2 |
 | libuuid1 | 2.34-0.1ubuntu9.1 |
+| libwebp6 | 0.6.1-2 |
 | libwind0-heimdal | 7.7.0+dfsg-1ubuntu1 |
 | libwrap0 | 7.6.q-30 |
+| libx11-6 | 2:1.6.9-2ubuntu1.1 |
+| libx11-data | 2:1.6.9-2ubuntu1.1 |
+| libxau6 | 1:1.0.9-0ubuntu1 |
+| libxcb1 | 1.14-2 |
+| libxdmcp6 | 1:1.1.3-0ubuntu1 |
+| libxml2 | 2.9.10+dfsg-5 |
+| libxpm4 | 1:3.5.12-1 |
+| libxslt1.1 | 1.1.34-4 |
 | libxtables12 | 1.8.4-3ubuntu2 |
 | libyaml-0-2 | 0.2.2-1 |
 | libzstd1 | 1.4.4+dfsg-3 |
@@ -273,6 +294,9 @@
 | netbase | 6.1 |
 | netplan.io | 0.101-0ubuntu3~20.04.2 |
 | networkd-dispatcher | 2.0.1-1 |
+| nginx | 1.18.0-0ubuntu1 |
+| nginx-common | 1.18.0-0ubuntu1 |
+| nginx-core | 1.18.0-0ubuntu1 |
 | open-iscsi | 2.0.874-7.1ubuntu6.1 |
 | openssh-client | 1:8.2p1-4ubuntu0.1 |
 | openssh-server | 1:8.2p1-4ubuntu0.1 |

@@ -14,10 +14,7 @@
           "virtualization-type": "hvm"
         },
         "most_recent": true,
-        "owners": [
-          "self",
-          "aws-marketplace"
-        ]
+        "owners": ["self", "aws-marketplace"]
       },
       "ssh_username": "ubuntu",
       "tags": {
@@ -36,9 +33,7 @@
   ],
   "provisioners": [
     {
-      "inline": [
-        "cloud-init status --wait"
-      ],
+      "inline": ["cloud-init status --wait"],
       "type": "shell"
     },
     {

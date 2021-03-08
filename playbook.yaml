@@ -1,3 +1,7 @@
-- hosts: all
+- become: true
+  hosts: all
   roles:
     - role: packages
+      vars:
+        packages:
+          - name: nginx
