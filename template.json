@@ -18,6 +18,7 @@
       },
       "ssh_username": "ubuntu",
       "tags": {
+        "Name": "Ubuntu 20.04",
         "SourceAMI": "{{ .SourceAMI }}",
         "SourceAMIName": "{{ .SourceAMIName }}"
       },
@@ -40,6 +41,15 @@
       "playbook_dir": "{{ template_dir }}",
       "playbook_file": "{{ template_dir }}/playbook.yaml",
       "type": "ansible-local"
+    },
+    {
+      "destination": "/tmp/goss.yaml",
+      "source": "{{ template_dir }}/test/goss.yaml",
+      "type": "file"
+    },
+    {
+      "inline": ["goss -g /tmp/goss.yaml validate -f json -o pretty"],
+      "type": "shell"
     },
     {
       "destination": "{{ template_dir }}/docs/packages.md",
