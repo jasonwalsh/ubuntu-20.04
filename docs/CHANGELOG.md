@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.6.0...v1.7.0) (2021-03-08)
+
+
+### Features
+
+* configure handler to generate documentation ([164b1ca](https://github.com/jasonwalsh/ubuntu-20.04/commit/164b1ca3052d284a1c234b6b6255bc093ca9396e))
+
 # [1.6.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.5.0...v1.6.0) (2021-03-07)
 
 
