@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.7.0...v1.8.0) (2021-03-08)
+
+
+### Features
+
+* add goss compliance testing ([f9b77bc](https://github.com/jasonwalsh/ubuntu-20.04/commit/f9b77bcfc336ea9bd8b851a479939184943306da))
+
 # [1.7.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.6.0...v1.7.0) (2021-03-08)
 
 
