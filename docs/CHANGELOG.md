@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.8.0...v1.8.1) (2021-03-08)
+
+
+### Bug Fixes
+
+* use junit format for goss tests ([f6b971d](https://github.com/jasonwalsh/ubuntu-20.04/commit/f6b971de3a08556bf8a72f1f6f4b5d55ef2a3c44))
+
 # [1.8.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.7.0...v1.8.0) (2021-03-08)
 
 
