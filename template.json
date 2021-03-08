@@ -48,7 +48,7 @@
       "type": "file"
     },
     {
-      "inline": ["goss -g /tmp/goss.yaml validate -f json -o pretty"],
+      "inline": ["goss -g /tmp/goss.yaml validate -f junit"],
       "type": "shell"
     },
     {
