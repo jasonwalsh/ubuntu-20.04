@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.12.0...v1.13.0) (2021-03-09)
+
+
+### Features
+
+* add test to check if Ansible is installed ([d789e88](https://github.com/jasonwalsh/ubuntu-20.04/commit/d789e8896a79bc6df5cf873699b237faed82f64f))
+
 # [1.12.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.11.0...v1.12.0) (2021-03-09)
 
 
