@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.8.1...v1.9.0) (2021-03-09)
+
+
+### Features
+
+* write goss results to repository ([23eec75](https://github.com/jasonwalsh/ubuntu-20.04/commit/23eec75ee350419cac943f529ac4923c146c16b5))
+
 ## [1.8.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.8.0...v1.8.1) (2021-03-08)
 
 
