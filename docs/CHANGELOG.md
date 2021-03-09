@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.10.2...v1.11.0) (2021-03-09)
+
+
+### Features
+
+* add generated description to template ([790ceaf](https://github.com/jasonwalsh/ubuntu-20.04/commit/790ceafe11a8405546cc8bce39ac0b012e64ecb2))
+
 ## [1.10.2](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.10.1...v1.10.2) (2021-03-09)
 
 
