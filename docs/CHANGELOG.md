@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.11.0...v1.12.0) (2021-03-09)
+
+
+### Features
+
+* workflow to configure repo settings ([9631a0f](https://github.com/jasonwalsh/ubuntu-20.04/commit/9631a0fb37e5086fe1b9ca0d05d981fbd0becc85))
+
 # [1.11.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.10.2...v1.11.0) (2021-03-09)
 
 
