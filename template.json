@@ -43,26 +43,19 @@
       "type": "ansible-local"
     },
     {
-      "destination": "/tmp/goss.yaml",
-      "source": "{{ template_dir }}/test/goss.yaml",
-      "type": "file"
-    },
-    {
-      "inline": [
-        "goss -g /tmp/goss.yaml validate -f junit > /tmp/TestResults.xml 2>&1"
+      "extra_arguments": [
+        "--reporter",
+        "cli",
+        "html2:{{ template_dir }}/docs/index.html"
       ],
-      "type": "shell"
+      "inspec_env_vars": ["CHEF_LICENSE=accept"],
+      "profile": "{{ template_dir }}/profile",
+      "type": "inspec"
     },
     {
       "destination": "{{ template_dir }}/docs/packages.md",
       "direction": "download",
       "source": "/tmp/{{ build_name }}.md",
-      "type": "file"
-    },
-    {
-      "destination": "{{ template_dir }}/test/TestResults.xml",
-      "direction": "download",
-      "source": "/tmp/TestResults.xml",
       "type": "file"
     }
   ],

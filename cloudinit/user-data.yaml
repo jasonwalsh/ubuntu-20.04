@@ -2,6 +2,3 @@
 #cloud-config
 packages:
   - ansible
-runcmd:
-  - curl -L -o /usr/local/bin/goss https://github.com/aelsabbahy/goss/releases/latest/download/goss-linux-amd64
-  - chmod +x /usr/local/bin/goss

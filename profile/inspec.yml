@@ -1,0 +1,4 @@
+name: default
+supports:
+  - platform-name: ubuntu
+version: 1.0.0

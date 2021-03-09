@@ -12,9 +12,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: artifacts
-          path: |
-            docs/
-            test/TestResults.xml
+          path: docs/
   release:
     name: Release
     needs: build
