@@ -11,8 +11,10 @@ jobs:
         run: packer build -force -var="skip_create_ami=false" template.json
       - uses: actions/upload-artifact@v2
         with:
-          name: docs
-          path: docs/
+          name: artifacts
+          path: |
+            docs/
+            test/TestResults.xml
   release:
     name: Release
     needs: build
@@ -24,8 +26,12 @@ jobs:
           node-version: 14
       - uses: actions/download-artifact@v2
         with:
-          name: docs
+          name: artifacts
           path: docs/
+      - uses: actions/download-artifact@v2
+        with:
+          name: artifacts
+          path: test/TestResults.xml
       - run: npm install @semantic-release/changelog -D
       - run: npm install @semantic-release/git -D
       - env:
