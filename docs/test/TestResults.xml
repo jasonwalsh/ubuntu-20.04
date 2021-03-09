@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="goss" errors="0" tests="1" failures="0" skipped="0" time="0.007" timestamp="2021-03-09T15:00:13Z">
-<testcase name="Package nginx installed" time="0.007">
-<system-out>Package: nginx: installed: matches expectation: [true]</system-out>
-</testcase>
-</testsuite>
