@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.9.2...v1.10.0) (2021-03-09)
+
+
+### Bug Fixes
+
+* install InSpec in workflow ([cdfd397](https://github.com/jasonwalsh/ubuntu-20.04/commit/cdfd397fddc9b1284d230b1896347a63b114df39))
+
+
+### Features
+
+* use InSpec for compliance testing ([d18945e](https://github.com/jasonwalsh/ubuntu-20.04/commit/d18945ec4603c36e9775bca44ec4792f302335b7))
+
 ## [1.9.2](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.9.1...v1.9.2) (2021-03-09)
 
 
