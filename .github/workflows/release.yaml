@@ -4,6 +4,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+      - run: curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P inspec
       - env:
           AWS_ACCESS_KEY_ID: "${{ secrets.AWS_ACCESS_KEY_ID }}"
           AWS_DEFAULT_REGION: "${{ secrets.AWS_DEFAULT_REGION }}"
