@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.10.0...v1.10.1) (2021-03-09)
+
+
+### Bug Fixes
+
+* update .releaserc ([df72e3c](https://github.com/jasonwalsh/ubuntu-20.04/commit/df72e3ca44d3c75530b04453f37563745747e2c0))
+
 # [1.10.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.9.2...v1.10.0) (2021-03-09)
 
 
