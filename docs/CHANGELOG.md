@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.9.1...v1.9.2) (2021-03-09)
+
+
+### Bug Fixes
+
+* post-build directory structure ([f41f7d0](https://github.com/jasonwalsh/ubuntu-20.04/commit/f41f7d0a4c7ede14e56f6d001ca8f5c19d2f57fa))
+
 ## [1.9.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.9.0...v1.9.1) (2021-03-09)
 
 
