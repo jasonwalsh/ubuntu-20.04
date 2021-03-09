@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.10.1...v1.10.2) (2021-03-09)
+
+
+### Bug Fixes
+
+* download artifacts to docs directory ([1c37490](https://github.com/jasonwalsh/ubuntu-20.04/commit/1c374903a872772376e989c020b324ddb9ed04b6))
+
 ## [1.10.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.10.0...v1.10.1) (2021-03-09)
 
 
