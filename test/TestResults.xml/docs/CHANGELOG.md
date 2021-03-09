@@ -1,10 +1,3 @@
-## [1.9.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.9.0...v1.9.1) (2021-03-09)
-
-
-### Bug Fixes
-
-* download test result artifact ([427beba](https://github.com/jasonwalsh/ubuntu-20.04/commit/427beba4698f38d738a7e5b33ca35ac436191cda))
-
 # [1.9.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.8.1...v1.9.0) (2021-03-09)
 
 
