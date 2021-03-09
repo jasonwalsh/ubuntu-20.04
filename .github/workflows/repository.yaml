@@ -1,0 +1,23 @@
+jobs:
+  repo_update:
+    name: Configure repo properties
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/github-script@v3
+        with:
+          github-token: "${{ secrets.GH_TOKEN }}"
+          script: |
+            await github.repos.update({
+              allow_merge_commit: false,
+              allow_rebase_merge: false,
+              delete_branch_on_merge: true,
+              homepage: `https://${context.repo.owner}.github.io/${context.repo.repo}`,
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            })
+name: Update repository settings
+"on":
+  push:
+    branches:
+      - main
