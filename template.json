@@ -48,13 +48,21 @@
       "type": "file"
     },
     {
-      "inline": ["goss -g /tmp/goss.yaml validate -f junit"],
+      "inline": [
+        "goss -g /tmp/goss.yaml validate -f junit > /tmp/TestResults.xml 2>&1"
+      ],
       "type": "shell"
     },
     {
       "destination": "{{ template_dir }}/docs/packages.md",
       "direction": "download",
       "source": "/tmp/{{ build_name }}.md",
+      "type": "file"
+    },
+    {
+      "destination": "{{ template_dir }}/test/TestResults.xml",
+      "direction": "download",
+      "source": "/tmp/TestResults.xml",
       "type": "file"
     }
   ],
