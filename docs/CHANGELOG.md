@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.13.0...v1.13.1) (2021-03-10)
+
+
+### Bug Fixes
+
+* use html reporter in favor of html2 ([e2b9910](https://github.com/jasonwalsh/ubuntu-20.04/commit/e2b99107accbcafa689c77cb2e9d18e0dc2839a2))
+
 # [1.13.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.12.0...v1.13.0) (2021-03-09)
 
 
