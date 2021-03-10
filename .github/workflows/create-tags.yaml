@@ -14,7 +14,7 @@ jobs:
         run: |
           aws ec2 create-tags \
             --resources $AMI_ID \
-            --tags Key=Release,Value=${{ github.event.release.tag_name }}
+            --tags Key=Release,Value=${{ github.event.release.tag_name }} \
             --tags Key=URL,Value=${{ github.event.release.html_url }}
 name: Create tags
 "on":
