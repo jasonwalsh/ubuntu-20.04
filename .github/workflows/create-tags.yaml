@@ -10,8 +10,12 @@ jobs:
           AWS_ACCESS_KEY_ID: "${{ secrets.AWS_ACCESS_KEY_ID }}"
           AWS_DEFAULT_REGION: "${{ secrets.AWS_DEFAULT_REGION }}"
           AWS_SECRET_ACCESS_KEY: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
+        name: Tag the latest image
         run: |
-          aws ec2 create-tags --resources $AMI_ID --tags Key=Release,Value=${{ github.event.release.tag_name }}
+          aws ec2 create-tags \
+            --resources $AMI_ID \
+            --tags Key=Release,Value=${{ github.event.release.tag_name }}
+            --tags Key=URL,Value=${{ github.event.release.html_url }}
 name: Create tags
 "on":
   release:
