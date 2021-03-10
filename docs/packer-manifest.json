@@ -3,14 +3,14 @@
     {
       "name": "amazon-ebs",
       "builder_type": "amazon-ebs",
-      "build_time": 1615384498,
+      "build_time": 1615390494,
       "files": null,
-      "artifact_id": "us-east-1:ami-0e5c660fde1474759",
-      "packer_run_uuid": "57f27aec-c8e5-1f21-3f7f-7e980a6afaa8",
+      "artifact_id": "us-east-1:ami-04a459f1aa1367afa",
+      "packer_run_uuid": "20c9b7ae-012f-3391-18ef-a3e0efe24df1",
       "custom_data": {
-        "SourceAMI": "ami-075a896f8674ff77e"
+        "SourceAMI": "ami-0ea83d8e485fb823f"
       }
     }
   ],
-  "last_run_uuid": "57f27aec-c8e5-1f21-3f7f-7e980a6afaa8"
+  "last_run_uuid": "20c9b7ae-012f-3391-18ef-a3e0efe24df1"
 }

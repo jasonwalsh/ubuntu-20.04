@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.16.0...v1.17.0) (2021-03-10)
+
+
+### Features
+
+* add additional tags to released image ([1fe9a53](https://github.com/jasonwalsh/ubuntu-20.04/commit/1fe9a53a4640b2539369965f2c48ea92365ab5bf))
+
 # [1.16.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.15.0...v1.16.0) (2021-03-10)
 
 
