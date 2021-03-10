@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.13.1...v1.14.0) (2021-03-10)
+
+
+### Features
+
+* add additional nginx tests ([7226663](https://github.com/jasonwalsh/ubuntu-20.04/commit/722666329beb3be67a691f6e9d1686901ca3d4bc))
+
 ## [1.13.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.13.0...v1.13.1) (2021-03-10)
 
 
