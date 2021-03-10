@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.17.0...v1.17.1) (2021-03-10)
+
+
+### Bug Fixes
+
+* add newline continuation escape character ([a69c60b](https://github.com/jasonwalsh/ubuntu-20.04/commit/a69c60b595c69a59e976f8f5880613b135fa1033))
+
 # [1.17.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.16.0...v1.17.0) (2021-03-10)
 
 
