@@ -28,6 +28,9 @@
   ],
   "post-processors": [
     {
+      "custom_data": {
+        "SourceAMI": "{{ build `SourceAMI` }}"
+      },
       "output": "docs/packer-manifest.json",
       "type": "manifest"
     }
