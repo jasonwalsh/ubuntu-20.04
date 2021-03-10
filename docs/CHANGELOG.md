@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.14.0...v1.15.0) (2021-03-10)
+
+
+### Features
+
+* add SourceAMI to manifest custom data ([5b2d2fa](https://github.com/jasonwalsh/ubuntu-20.04/commit/5b2d2fa9a170dca848657eef07d83a08bc20a48b))
+
 # [1.14.0](https://github.com/jasonwalsh/ubuntu-20.04/compare/v1.13.1...v1.14.0) (2021-03-10)
 
 
