@@ -16,7 +16,11 @@ The [release](.github/workflows/release.yaml#L7) GitHub Actions workflow downloa
 
 ## Changes
 
-Please refer to the [CHANGELOG](docs/CHANGELOG.md) for a detailed description of changes made to this image.
+Please refer to the [changelog](docs/changelog.md) for a detailed description of changes made to this image.
+
+## Contributing
+
+See [contributing](docs/contributing.md).
 
 ## License
 
